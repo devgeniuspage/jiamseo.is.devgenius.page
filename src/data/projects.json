@@ -1,32 +1,44 @@
 [
   {
-    "project": "Project Sample #1",
-    "language": "NodeJS",
-    "description": "A short description about the project.",
-    "link": "https://github.com/"
+    "project": "인공지능 챗봇빌더 단비Ai #1",
+    "language": "NLP, Java, Python, Node.js, AngularJs, Vue.js",
+    "description": "누구나 쉽게 인공지는 챗봇을 만들 수 있는 챗봇빌더 플랫폼.",
+    "link": "https://danbee.ai/"
   },
   {
-    "project": "Project Sample #2",
-    "language": "VueJS",
-    "description": "A short description about the project.",
-    "link": "https://github.com/"
+    "project": "인공지능 교육플랫폼 에이아이런 #2",
+    "language": "NLP, Java, Python, Node.js, AngularJs, Vue.js",
+    "description": "초중고 학생들이 챗봇을 만들며 인공지능을 배우는 교육플랫폼",
+    "link": "https://ailearn.co.kr/"
   },
   {
-    "project": "Project Sample #3",
-    "language": "Python",
-    "description": "A short description about the project.",
-    "link": "https://github.com/"
+    "project": "스마트스쿨 이알리미 #3",
+    "language": "Flutter, Java",
+    "description": "학생 맞춤형 교육을 위한 스마트 교육 시스템의 온라인 상호 작용 앱.",
+    "link": "https://ealarm.co.kr/"
   },
   {
-    "project": "Project Sample #4",
-    "language": "Java",
-    "description": "A short description about the project.",
-    "link": "https://github.com/"
+    "project": "블링크 #4",
+    "language": "단비Ai, Lit",
+    "description": "웹사이트의 인공지능 안내원 앱.",
+    "link": "https://blink.danbee.ai/"
   },
   {
-    "project": "Project Sample #5",
-    "language": "NodeJS",
-    "description": "A short description about the project.",
-    "link": "https://github.com/"
+    "project": "오토라이팅 #5",
+    "language": "ChatGPT, Java, Vue.js",
+    "description": "챗GPT를 활용한 자소서 생성 서비스 플랫폼.",
+    "link": "https://autowriting.ai/"
+  },
+  {
+    "project": "서피, 어디갈까? #6",
+    "language": "Flutter, Java",
+    "description": "주변 멋진 곳을 공유하고 서핑하는 모바일 앱.",
+    "link": "https://surfi.ai/"
+  },
+  {
+    "project": "천재 개발자 페이지 #7",
+    "language": "Github Pages",
+    "description": "웹페이지를 만들 수 있는 공간을 제공하는 프로젝트.",
+    "link": "https://devgenius.page/"
   }
 ]

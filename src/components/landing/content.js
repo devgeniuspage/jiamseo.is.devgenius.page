@@ -44,8 +44,8 @@ export default class Content extends Component {
                 {/* + Job subsection */}
                 <div className="subsection">
                   <h2>
-                    <span className="dot"></span>내가 하고있는{" "}
-                    <span className="word">일</span>?
+                    <span className="dot"></span>나의 현재 {" "}
+                    <span className="word">직업</span>?
                   </h2>
 
                   <div className="card">
@@ -57,7 +57,7 @@ export default class Content extends Component {
                             icon={faBriefcase}
                             className="mr-2"
                           />{" "}
-                          CTO, 개발총괄
+                          Co-Founder, CTO, 개발총괄
                         </h4>
                         <h4>
                           <FontAwesomeIcon icon={faCalendar} className="mr-2" />{" "}
@@ -77,8 +77,8 @@ export default class Content extends Component {
                 {/* + Technologies subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>내가 알고있는 {" "}
-                    <span className="word">개발언어</span>?
+                    <span className="dot"></span>내가 해왔던 {" "}
+                    <span className="word">개발 스킬</span>?
                   </h2>
                   <div className="row">
                     {data.allLanguagesJson.edges.map(({ node }, index) => (
@@ -138,7 +138,7 @@ export default class Content extends Component {
                 {/* + Projects subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>내가 최근에 했던 {" "}
+                    <span className="dot"></span>나의 최근 {" "}
                     <span className="word">경헙들</span>?
                   </h2>
                   <div className="row">
@@ -160,13 +160,17 @@ export default class Content extends Component {
                             <div className="card-text">{node.description}</div>
                           </div>
                           <div className="card-footer">
+                            {node.link !== "" ? (
                             <a
                               href={node.link}
                               target="_blank"
                               rel="noreferrer"
                             >
-                              View
+                              살펴보기
                             </a>
+                            ) : (
+                              <span>&nbsp;</span>
+                            )}
                           </div>
                         </div>
                       </div>
