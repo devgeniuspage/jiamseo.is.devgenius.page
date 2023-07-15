@@ -18,9 +18,9 @@ export default function Hero() {
                   👋
                 </span>
               </h1>
-              <h1>안녕하세요. 서지암입니다.</h1>
+              <h1>안녕하세요.<br/>서지암입니다.</h1>
               <p>
-                저는 소프트웨어 개발쪽 일을 하고 있습니다. 저랑 친구하실 분??
+                저는 소프트웨어 개발쪽 일을 하고 있습니다. <br/>저랑 친구하실 분??
               </p>
               <Link
                 to="content"
@@ -59,7 +59,7 @@ export default function Hero() {
                     <br />
                   </h4>
                   <p className="card-text">
-                    인공지능 챗봇개발,
+                    인공지능 챗봇 개발
                     <br />
                     단비아이엔씨 CTO
                   </p>

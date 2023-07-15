@@ -78,7 +78,7 @@ export default class Content extends Component {
                 <div className="subsection">
                   <h2 className="mt-5">
                     <span className="dot"></span>내가 알고있는 {" "}
-                    <span className="word">언어</span>?
+                    <span className="word">개발언어</span>?
                   </h2>
                   <div className="row">
                     {data.allLanguagesJson.edges.map(({ node }, index) => (
@@ -103,7 +103,7 @@ export default class Content extends Component {
                 {/* + School subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>나는 무엇을{" "}
+                    <span className="dot"></span>나는 최근에 무엇을{" "}
                     <span className="word">공부했나</span>?
                   </h2>
 
@@ -138,7 +138,7 @@ export default class Content extends Component {
                 {/* + Projects subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>내가 해왔던 {" "}
+                    <span className="dot"></span>내가 최근에 했던 {" "}
                     <span className="word">경헙들</span>?
                   </h2>
                   <div className="row">
