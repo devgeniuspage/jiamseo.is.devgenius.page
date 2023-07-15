@@ -73,12 +73,12 @@ export default class Header extends Component {
                   <ul className="navbar-nav ml-auto">
                     <li className="nav-item my-auto ml-2">
                       <Link className="nav-link" to="/about">
-                        About
+                        나에대해서
                       </Link>
                     </li>
                     <li className="nav-item my-auto ml-2">
                       <Link className="nav-link" to="/contact">
-                        Contact
+                        연락하기
                       </Link>
                     </li>
                     <li className="nav-item my-auto ml-2">

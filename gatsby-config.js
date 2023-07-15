@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `SiteName`,
-    description: `A minimalistic resume style Gatsby portfolio.`,
-    author: `@gmlunesa`,
+    title: `서지암`,
+    description: '서지암,개발자,개발,인공지능,AI,챗봇,NLP,ML,머신러닝,단비AI,단비아이엔씨',
+    author: `@jams777`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `SiteName`,
-        short_name: `SiteName`,
+        name: `서지암`,
+        short_name: `서지암`,
         start_url: `/`,
         background_color: `#1b1c1e`,
         theme_color: `#1b1c1e`,

@@ -15,9 +15,9 @@ const Page404 = () => (
           </div>
         </div>
         <div className="row row-404 mt-4 ml-4">
-          <h1>Uh-oh.</h1>
-          <h2>There's nothing here :(</h2>
-          <p>For the meantime, choose which alien character you are:</p>
+          <h1>오우~~ ㅠㅠ</h1>
+          <h2>이 페이지는 없는 페이지입니다. :(</h2>
+          <p>당신은 누구인지 한번 선택해보세요~</p>
           <br />
           <Slider />
         </div>

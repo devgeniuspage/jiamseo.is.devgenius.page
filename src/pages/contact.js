@@ -12,31 +12,34 @@ const ContactPage = () => (
       <div className="container">
         <div className="row mt-4">
           <div className="col-md-8">
-            <h1>Contact Details</h1>
+            <h1>연락처</h1>
             <p>
-              Hi! How are you? Thank you for visiting my site. If you have any
-              inquiries or feedback, please don't hesitate to reach out. I am
-              available at the following social media outlets:
+              안녕하세요. 방문해주셔서 감사합니다.
+              저에게 궁금하신게 있다면 편하게 연락해주십시오.
+              아래의 서비스로도 연락이 가능합니다.
             </p>
             <Links />
             <p>
-              I am currently available for freelance work. My scope of work
-              includes but not limited to:
+              저는 현재 스타트업의 CTO업무를 담당하고 있습니다.
+              이외에도 여러가지 업무가 가능합니다.
             </p>
             <ul>
-              <li>Website Development</li>
-              <li>User Interface (UI) Design</li>
-              <li>Logo Creation</li>
-              <li>Website Scraping Automation</li>
-              <li>Quality Assurance Testing</li>
+              <li>제품 관리자(PM)</li>
+              <li>소프트웨어 아키텍쳐</li>
+              <li>소프트웨어 설계</li>
+              <li>소프트웨어 개발</li>
+              <li>클라우드 인프라 아키텍쳐(AWS, GCP, Azure, Naver, KT, NHN etc)</li>
+              <li>NLP 개발</li>
+              <li>데이터 분석</li>
+              <li>소프트웨어 품질 관리</li>
             </ul>
 
-            <a
-              href="content"
-              className="main-button btn btn-primary shadow-sm mt-2"
-            >
-              Download my resume
-            </a>
+            {/*<a*/}
+            {/*  href="content"*/}
+            {/*  className="main-button btn btn-primary shadow-sm mt-2"*/}
+            {/*>*/}
+            {/*  이력 다운로드*/}
+            {/*</a>*/}
           </div>
           <div className="col-lg-4 my-auto">
             <div className="img-container">

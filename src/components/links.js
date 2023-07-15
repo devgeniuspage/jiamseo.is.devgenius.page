@@ -13,7 +13,7 @@ export default function Links() {
     <ul className="list-group list-group-horizontal">
       <li className="list-group-item">
         <a
-          href="mailto:emailName@gmail.com"
+          href="mailto:jams7777@gmail.com"
           target="_blank"
           rel="noreferrer"
           alt="email link"
@@ -23,7 +23,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://github.com/githubName"
+          href="https://github.com/jams777"
           target="_blank"
           rel="noreferrer"
           alt="github link"
@@ -33,7 +33,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://linkedin.com/linkedInName"
+          href="https://linkedin.com/in/jams777/"
           target="_blank"
           rel="noreferrer"
           alt="linkedin link"
@@ -43,7 +43,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://twitter.com/twitterName"
+          href="https://twitter.com/jams777"
           target="_blank"
           rel="noreferrer"
           alt="twitter link"

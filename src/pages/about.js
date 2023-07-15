@@ -12,7 +12,7 @@ const AboutPage = () => (
         {/* + Title */}
         <div className="row mt-4 justify-content-center">
           <div className="col-lg-7 col-sm-12 my-auto headline">
-            <h1>My mini autobiography~</h1>
+            <h1>나는 누구인가? ~</h1>
           </div>
         </div>
         {/* - Title */}
@@ -24,19 +24,23 @@ const AboutPage = () => (
               <div className="card-body">
                 <div className="card-title">
                   <h2>
-                    Hi there!
+                    안녕하세요!
                     <span role="img" aria-label="Happy face">
                       😊
                     </span>
                   </h2>
-                  <h3>an introduction</h3>
+                  <h3>안녕하세요.</h3>
                 </div>
 
                 <div className="card-text">
-                  Cupcake ipsum dolor sit amet sweet roll ice cream cheesecake
-                  chocolate. Lemon drops gummi bears biscuit. Pie gingerbread
-                  tart tootsie roll donut cheesecake. Muffin pie gingerbread
-                  dragée pudding tart tootsie roll.
+                  중용 23장 <br/>
+                  其次(기차)는 致曲 曲能有誠(치곡 곡능유성)이니<br/>
+                  誠則形(성즉형)하고<br/>
+                  形則著(형즉저)하고<br/>
+                  著則明(저즉명)하고<br/>
+                  明則動(명즉동)하고<br/>
+                  動則變(동즉변)하고 變則化(변즉화)니<br/>
+                  唯天下至誠(유천하지성)이아 爲能化(위능화)니라<br/>
                 </div>
               </div>
             </div>
@@ -58,17 +62,12 @@ const AboutPage = () => (
             <div className="card shadow-sm">
               <div className="card-body">
                 <div className="card-title">
-                  <h2>More about me</h2>
-                  <h3>sweet and sweeter</h3>
+                  <h2>주변 사람들과 행복하게 살길 꿈꿉니다.</h2>
+                  <h3>같이 행복해져요~</h3>
                 </div>
 
                 <div className="card-text">
-                  Bonbon chocolate bar ice cream brownie ice cream macaroon
-                  halvah. Toffee tart chupa chups ice cream croissant jujubes
-                  lollipop. Dragée jelly beans sesame snaps wafer muffin sesame
-                  snaps topping bonbon ice cream. Macaroon cake biscuit gummies
-                  sweet sweet chocolate cake. Danish sweet roll carrot cake
-                  croissant. Donut chocolate cake jelly beans.
+                  컴퓨터 관련된 일을 하다 도움이 필요하면 같이 이야기 해봐요!
                 </div>
               </div>
             </div>
