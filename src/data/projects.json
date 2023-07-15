@@ -36,7 +36,13 @@
     "link": "https://surfi.ai/"
   },
   {
-    "project": "천재 개발자 페이지 #7",
+    "project": "단비, 레인 #7",
+    "language": "단비Ai, Vue.js, Three.js",
+    "description": "인공지능 3D캐릭터 레인 페이지",
+    "link": "https://danbee.ai/rain.html"
+  },
+  {
+    "project": "천재 개발자 페이지 #8",
     "language": "Github Pages",
     "description": "웹페이지를 만들 수 있는 공간을 제공하는 프로젝트.",
     "link": "https://devgenius.page/"
