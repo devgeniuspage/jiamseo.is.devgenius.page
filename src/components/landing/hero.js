@@ -18,17 +18,16 @@ export default function Hero() {
                   👋
                 </span>
               </h1>
-              <h1>Hi. I'm Umiko</h1>
+              <h1>안녕하세요. 서지암입니다.</h1>
               <p>
-                I work as a software developer at a game company. Will you be my
-                airsoft buddy?
+                저는 소프트웨어 개발쪽 일을 하고 있습니다. 저랑 친구하실 분??
               </p>
               <Link
                 to="content"
                 className="main-button btn btn-primary shadow-sm"
                 smooth={true}
               >
-                Get to know me
+                알아보기
               </Link>
             </div>
           </div>
@@ -46,7 +45,7 @@ export default function Hero() {
                       alt="Hero Icon"
                     />
                   </div>
-                  <h3 className="card-title">@umikokommando</h3>
+                  <h3 className="card-title">@jams777</h3>
                   <h4>
                     <span
                       className="mr-1"
@@ -56,13 +55,13 @@ export default function Hero() {
                     >
                       📍
                     </span>
-                    Tokyo
+                    서울, 대한민국
                     <br />
                   </h4>
                   <p className="card-text">
-                    full-time software dev,
+                    인공지능 챗봇개발,
                     <br />
-                    airsoft enthusiast
+                    단비아이엔씨 CTO
                   </p>
                   <Links />
                 </div>

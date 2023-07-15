@@ -44,33 +44,30 @@ export default class Content extends Component {
                 {/* + Job subsection */}
                 <div className="subsection">
                   <h2>
-                    <span className="dot"></span>What do I{" "}
-                    <span className="word">do</span>?
+                    <span className="dot"></span>내가 하고있는{" "}
+                    <span className="word">일</span>?
                   </h2>
 
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
-                        <h3>Eagle Jump Co. Ltd.</h3>
+                        <h3>단비아이엔씨 danbee inc.</h3>
                         <h4>
                           <FontAwesomeIcon
                             icon={faBriefcase}
                             className="mr-2"
                           />{" "}
-                          Software Developer
+                          CTO, 개발총괄
                         </h4>
                         <h4>
                           <FontAwesomeIcon icon={faCalendar} className="mr-2" />{" "}
-                          Jun 2010 - Present
+                          2018년 8월 - 현재
                         </h4>
                       </div>
 
                       <div className="card-text">
-                        ◆ I work with Japan's biggest JRPG titles, Fairies
-                        Story. I oversee the software development involving the
-                        characters in the game.
-                        <br />◆ I also lead the testers of the game in its alpha
-                        and beta releases.
+                        ◆ 나는 단비아이엔씨에서 인공지능 챗봇플랫폼 단비Ai를 개발, 운영하고 있습니다.
+                        <br />◆ 인공지능 개발이외에 웹개발, 클라우드 인프라 구성, 품질관리 등을 같이 하고 있습니다.
                       </div>
                     </div>
                   </div>
@@ -80,8 +77,8 @@ export default class Content extends Component {
                 {/* + Technologies subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>What do I{" "}
-                    <span className="word">know</span>?
+                    <span className="dot"></span>내가 알고있는 {" "}
+                    <span className="word">언어</span>?
                   </h2>
                   <div className="row">
                     {data.allLanguagesJson.edges.map(({ node }, index) => (
@@ -106,20 +103,20 @@ export default class Content extends Component {
                 {/* + School subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>What did I{" "}
-                    <span className="word">study</span>?
+                    <span className="dot"></span>나는 무엇을{" "}
+                    <span className="word">공부했나</span>?
                   </h2>
 
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
-                        <h3>Tokyo Institute of Technology</h3>
+                        <h3>서강대학교 정보통신대학원</h3>
                         <h4>
                           <FontAwesomeIcon
                             icon={faGraduationCap}
                             className="mr-2"
                           />
-                          Computer Science
+                          정보처리 데이터마이닝 전공
                         </h4>
                         <h4>
                           <FontAwesomeIcon
@@ -131,10 +128,7 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                        I earned my Bachelor's Degree in Computer Science in
-                        Tokyo Institute of Technology. For my undergraduate
-                        thesis, I wrote this model motion development through
-                        convolutional neural networks.
+                        데이터를 다루는 내용에 대해 관심이 많아요
                       </div>
                     </div>
                   </div>
@@ -144,8 +138,8 @@ export default class Content extends Component {
                 {/* + Projects subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
-                    <span className="dot"></span>What have I{" "}
-                    <span className="word">experimented with</span>?
+                    <span className="dot"></span>내가 해왔던 {" "}
+                    <span className="word">경헙들</span>?
                   </h2>
                   <div className="row">
                     {data.allProjectsJson.edges.map(({ node }, index) => (
